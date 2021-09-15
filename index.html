@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome ******* -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="home">
+        <!-- navigation ------------------->
+        <nav>
+            <!-- logo -->
+            <a href="" class="logo">TIESSE BI</a>
+            <!-- menu -->
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            <!-- bars ****-->
+            <div class="toggle"></div>
+        </nav>
+        <!-- ****** Text ********* -->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'm Tiesse Bi</p>
+            <p>I'm a web developer</p>
+            <a href="#contact"><button class="hire-btn">Hire me</button></a>
+            
+
+            <a href="cv.pdf" target="_blank"><button class="down-cv">Download cv</button></a>
+        </div>
+        <!-- model ************* -->
+        <img src="images/model.png" class="model" alt="">
+    </section>
+    <!-- about section *********-->
+    <div class="about-container" id="about">
+        <!-- img **************-->
+        <img src="images/about-img.png" alt="">
+        <!-- about-text **********-->
+        <div class="about-text">
+            <p>About me</p>
+            <p>I'm a web developer</p>
+            <p>Hi there, my name is TIESSE BI. Motivated WEB DEVELOPER with one year of experience in the field. I am
+appreciated for my capacity for work and adaptation, for my ability to assess operational needs and find solutions to reduce costs,
+increase revenue and customer satisfaction. Rigorous and organized, I have proven my ability to lead and build teams .</p>
+            <P>A web project or a mobile application will boost your sales by 35%, it makes your products or services available 24h/24 and 365/365 days. Anytime, Anywhere clients can purchase your products online. I design responsive modern websites using html5,css3, javascript, bootstrap depends on your requirements.</P>
+            <a href="#contact"><button>Hire me</button></a>
+            <a href="cv.pdf" target="_blank"><button>Download CV</button></a>
+        </div>
+    </div>
+    <!-- services ************--> 
+    <div class="services">
+        <!-- text **** -->
+        <div class="services-text">
+            <p>Services</p>
+            <p>Web design & development</p>
+            <p>Will help you create stunning professional websites for your restaurants, hotels, sports club, organization, wedding, portfolio, ... Open 24h/24 and 365days/365 making your products or services available all the time, anywhere.</p>
+        </div>
+        <!-- box -->
+        <div class="box-container">
+            <!-- 1*********** -->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Web Design</p>
+                <p class="details">Web designing is crafting the visual interfaces to communicate your brand. Applying visual hierarchy, the logic of displaying elements in interactive designs, to optimize the user experience..
+
+ </p>
+                <button>Read More</button>
+            </div>
+            <!-- 2*********** -->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Web Development</p>
+                <p class="details">After all the design part we can start to code the html5, css3, javascript and bootstrap using visual studio code as editor. depends on clients requirements</p>
+                <button>Read More</button>
+            </div>
+            <!-- 3*********** -->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Search Engine Optimization</p>
+                <p class="details">Analyze the competition level for any keyword. Review regional and global search volume. Discover phrase matches – longer search terms that contain the keyword you queried.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- contact me ************ -->
+    <div class="contact-me">
+        <p>If you need a corporate lawyer</p>
+        <button>Contact Me</button>
+    </div>
+    <!-- footer ***************-->
+    <footer id="contact">
+        <p>WEB DEVELOPER</p>
+        <p>Motivated WEB DEVELOPER with one year of experience in the field.</p>
+           <!-- social *******-->
+           <div class="social-icons">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+           <!-- copyrights-->
+           <p class="copyright"> All Rights Reserved</p>
+    </footer>
+    <!-- attached social bar *******-->
+    <div class="a-social-b">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!--Jquery -->
+    <script src="js/JQuery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function (){
+            $('.toggle').toggleClass('active')
+            $('').toggnavleClass('active')
+        })
+    })
+    </script>
+</body>
+</html>
